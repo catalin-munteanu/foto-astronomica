@@ -12,8 +12,6 @@
 <body>
 
 <?php
-ini_set( 'display_errors', 1 );
-error_reporting( E_ALL );
 
 $api_response = file_get_contents( 'https://api.nasa.gov/planetary/apod?api_key=3BsgsikV8JRcoQtimtp7GinKyMBrQhSSwNk2z28u' );
 
